@@ -1,0 +1,10 @@
+.form-cad {
+  max-width: 100vw;
+  height: 700px;
+  place-items: center center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
