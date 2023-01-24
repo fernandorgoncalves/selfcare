@@ -54,9 +54,15 @@ footer line img {
   font-size: 20px;
   color: #5ca720;
 }
+.div-login input:focus {
+  font-size: 20px;
+}
 .div-senha label {
   font-size: 20px;
   color: #5ca720;
+}
+.div-senha input:focus {
+  font-size: 20px;
 }
 .container-login a {
   text-align: center;
@@ -190,6 +196,9 @@ footer line img {
 }
 .form-cadastro input:focus {
   font-size: 22px;
+}
+.form-cadastro button:visited {
+  color: white;
 }
 #sexo {
   width: 120px;
