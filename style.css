@@ -8,11 +8,19 @@ span {
 }
 button {
   padding: 10px 30px;
-  border: 2px solid #3d6f14;
+  height: 37px;
+  border: 1px solid #3d6f14;
   background-color: #5ca720;
   border-radius: 10px;
-  font-size: 15px;
   color: aliceblue;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+button a:visited {
+  color: white;
+}
+button:hover {
+  background-color: #3d6f14;
 }
 footer {
   display: flex;
@@ -25,7 +33,7 @@ footer {
 }
 a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 input {
   height: 37px;
@@ -33,16 +41,34 @@ input {
   box-sizing: border-box;
   width: 387px;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
+  color: #5ca720;
+  box-sizing: border-box;
+  border: 1px solid #5ca720;
 }
 footer line img {
   border: 0.1px solid #a5a1a1;
   background-color: #a5a1a1;
 }
+.div-login label {
+  font-size: 20px;
+  color: #5ca720;
+}
+.div-senha label {
+  font-size: 20px;
+  color: #5ca720;
+}
+.container-login a {
+  text-align: center;
+  color: #5ca720;
+}
 .redesSociais img {
   width: 33.5px;
 }
 .money {
+  color: #5ca720;
+}
+.mens-login-span {
   color: #5ca720;
 }
 #Menu-navegacao {
@@ -110,22 +136,64 @@ footer line img {
 /* Paginas de login*/
 .main-login {
   display: flex;
-  justify-content: center;
+  place-content: start center;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
+  margin-top: 0px;
 }
 .container-login {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 50px;
   width: 400px;
   height: 400px;
-  border: 5px solid black;
-  place-self: center;
   padding: 15px;
 }
-.span-login {
+#span-login {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
+}
+.div-login {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.div-senha {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.esq-cad {
+  display: flex;
+  place-content: space-between;
+}
+.esq-cad a {
+  text-transform: uppercase;
+}
+/*fim da pagina de login
+
+/*Formulario de cadastro*/
+
+.main-form {
+  display: flex;
+  width: 98vw;
+  height: 1000px;
+  justify-content: center;
+}
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  gap: 15px;
+}
+.form-cadastro input:focus {
+  font-size: 22px;
+}
+#sexo {
+  width: 120px;
+  height: 30px;
+  background-color: #5ca720;
+  font-size: 15px;
 }

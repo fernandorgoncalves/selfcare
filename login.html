@@ -1,23 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <title>Selfcare-Login</title>
 </head>
 
 <body>
+  <nav id="Menu-navegacao">
+    <section>
+      <a href="./index.html"><img src="./assets/logo.svg" alt="logo da empresa"></a>
+
+    </section>
+    <section class="btn-nav-a">
+      <a href="#" class="btn-nav"><img src="./assets/btn-pesquisa.svg" alt=""></a>
+      <a href="./login.html" class="btn-nav"><img src="./assets/btn-login.svg" alt=""></a>
+      <a href="#" class="btn-nav"><img src="./assets/btn-comprar.svg" alt=""></a>
+    </section>
+  </nav>
   <main class="main-login">
     <section class="container-login">
-      <span id="span-login">Login do cliente</span>
-      <div><label for="">Email</label>
-        <input type="text" placeholder="Digite o seu Email">
+      <span id="span-login" class="mens-login-span">Login do cliente</span>
+      <div class="div-login">
+        <label for="">Email</label>
+        <input type="email" placeholder="Digite o seu Email" required pattern="Informe o email">
       </div>
-      <div></div>
-      <a href="#"></a>
+      <div class="div-senha">
+        <label for="">Senha</label>
+        <input type="password" name="" id="" placeholder="Digite a senha" required pattern="Digite a senha">
+      </div>
+      <button><a href="#">Continuar</a></button>
+      <div class="esq-cad">
+        <a href="#">Esqueceu a senha</a>
+        <a href="./cadastro.html">Cadastre-se</a>
+      </div>
     </section>
   </main>
 </body>
