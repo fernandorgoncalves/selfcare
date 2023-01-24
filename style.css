@@ -203,6 +203,13 @@ footer line img {
 .form-cadastro button:visited {
   color: white;
 }
+.radio {
+  display: flex;
+}
+.radio input {
+  width: 88px;
+  height: 21px;
+}
 #sexo {
   width: 120px;
   height: 30px;

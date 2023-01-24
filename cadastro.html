@@ -35,11 +35,12 @@
       <input type="text" required id="cidade">
       <Label>Data de nascimento</Label>
       <input type="date" required id="dataNacimento">
-      <label for="sexo">Informe o sexo</label>
-      <select name="" id="sexo">
-        <option value="Feminino">Feminino</option>
-        <option value="Masculino">Masculino</option>
-      </select>
+      <div class="radio">
+        <input type="radio" name="opcao" value="op1">
+        <span>masculino</span>
+        <input type="radio" name="opcao" value="op2">
+        <span>Feminino</span>
+      </div>
       <Label>Senha</Label>
       <input type="password" required placeholder="Digite a senha" id="senha">
       <Label>Confirme a Senha</Label>
