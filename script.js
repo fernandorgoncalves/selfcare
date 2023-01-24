@@ -13,10 +13,10 @@ function salvar() {
     "senha",
     JSON.stringify(document.getElementById("senha").value)
   )
-  localStorage.setItem(
+  /*localStorage.setItem(
     "confimeSenha",
     JSON.stringify(document.getElementById("confirme-senha").value)
-  )
+  )*/
   window.location.reload(true)
 }
 function carregar() {

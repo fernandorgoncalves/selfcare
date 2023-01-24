@@ -113,6 +113,9 @@ footer line img {
 .comprar {
   justify-self: end;
 }
+.comprar:visited {
+  background-color: white;
+}
 .contatos-servicos {
   display: flex;
   flex-direction: column;
