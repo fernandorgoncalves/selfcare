@@ -24,30 +24,31 @@
   <main class="main-form">
     <form action="" class="form-cadastro">
       <Label>Nome Completo</Label>
-      <input type="text" required>
+      <input type="text" required id="nome">
       <Label>Telefone</Label>
-      <input type="tel" placeholder="(**)*****-****" required>
+      <input type="tel" placeholder="(**)*****-****" required id="tel">
       <Label>Email</Label>
-      <input type="email" placeholder="cliente@cliente.com" required>
+      <input type="email" placeholder="cliente@cliente.com" required id="email">
       <Label>Endereço</Label>
-      <input type="text" required>
+      <input type="text" required id="end">
       <Label>Cidade</Label>
-      <input type="text" required>
+      <input type="text" required id="cidade">
       <Label>Data de nascimento</Label>
-      <input type="date" required>
+      <input type="date" required id="dataNacimento">
       <label for="sexo">Informe o sexo</label>
       <select name="" id="sexo">
         <option value="Feminino">Feminino</option>
         <option value="Masculino">Masculino</option>
       </select>
       <Label>Senha</Label>
-      <input type="password" required placeholder="Digite a senha">
+      <input type="password" required placeholder="Digite a senha" id="senha">
       <Label>Confirme a Senha</Label>
-      <input type="password" required placeholder="Confirme a senha">
-      <button><a href="#">cadastrar</a></button>
+      <input type="password" required placeholder="Confirme a senha" id="confirmeSenha">
+      <button onclick="salvar()"><a href="#">cadastrar</a></button>
     </form>
 
   </main>
+  <script src="./script.js"></script>
 </body>
 
 </html>
