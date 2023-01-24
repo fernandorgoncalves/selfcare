@@ -216,3 +216,11 @@ footer line img {
   background-color: #5ca720;
   font-size: 15px;
 }
+.divButtonResult {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.divButtonResult span {
+  text-align: center;
+}

@@ -8,7 +8,7 @@ function salvar() {
     "dataNascimento",
     JSON.stringify(document.getElementById("dataNascimento"))
   )*/
-  localStorage.setItem("sexo", document.getElementById("sexo").value)
+  localStorage.setItem("sexo", JSON.stringify(document.getElementById("sexo")))
   localStorage.setItem(
     "senha",
     JSON.stringify(document.getElementById("senha").value)
@@ -29,9 +29,12 @@ function carregar() {
     document.getElementById("senha").value
   )
   if (email.value !== usuarioLocal && senha.value !== senhaLocal) {
-    alert("Campos em branco ou Login e senha incorreto")
+    document.getElementById("resultadoLogin").innerHTML =
+      " Login ou senha incorreto"
+  } else if (usuarioLocal.value === null || senhaLocal.value === null) {
+    document.getElementById("resultadoLogin").innerHTML =
+      "Preencha o email ou a senha"
   } else {
-    alert("Voce entrou")
+    document.getElementById("resultadoLogin").innerHTML = "Você entrou"
   }
-  window.location.reload(true)
 }
