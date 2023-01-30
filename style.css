@@ -80,14 +80,16 @@ footer line img {
 #Menu-navegacao {
   display: flex;
   justify-content: space-between;
-  padding: 50px 70px;
+  padding: 50px 40px;
   background-color: white;
-  width: 83%;
+  width: 95%;
   position: fixed;
+  min-width: 400px;
 }
 .btn-nav-a {
   display: flex;
   gap: 40px;
+  margin-right: 40px;
 }
 .img-expose img {
   width: 100%;
