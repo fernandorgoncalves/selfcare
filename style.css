@@ -81,6 +81,9 @@ footer line img {
   display: flex;
   justify-content: space-between;
   padding: 50px 70px;
+  background-color: white;
+  width: 90%;
+  position: fixed;
 }
 .btn-nav-a {
   display: flex;
@@ -88,6 +91,7 @@ footer line img {
 }
 .img-expose img {
   width: 100%;
+  margin-top: 160px;
 }
 .div-promo-produto {
   display: flex;
@@ -143,12 +147,17 @@ footer line img {
   gap: 20px;
 }
 /* Paginas de login*/
+#Menu-navegacao-login {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 70px;
+  background-color: white;
+}
 .main-login {
   display: flex;
   place-content: start center;
-  width: 100vw;
-  height: 70vh;
-  margin-top: 0px;
+  width: 100%;
+  height: 30vh;
 }
 .container-login {
   display: flex;
@@ -184,11 +193,16 @@ footer line img {
 /*fim da pagina de login
 
 /*Formulario de cadastro*/
-
+#Menu-navegacao-cadastro {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 70px;
+  background-color: white;
+}
 .main-form {
   display: flex;
   width: 98vw;
-  height: 1000px;
+  height: 800px;
   justify-content: center;
 }
 .form-cadastro {
@@ -219,7 +233,7 @@ footer line img {
 .divButtonResult {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 10px;
 }
 .divButtonResult span {
   text-align: center;
